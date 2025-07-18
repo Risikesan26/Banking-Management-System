@@ -39,7 +39,7 @@ A simple yet powerful console-based banking system built in Python that simulate
 2.Run the Python script:
    python bank_system.py
 
-📸 Sample Output
+##📸 Sample Output
 ==== Welcome to Python Bank ====
 1. Create account
 2. Deposit
@@ -49,7 +49,7 @@ A simple yet powerful console-based banking system built in Python that simulate
 ...
 12. Exit
 
-✅ Learning Outcomes
+##✅ Learning Outcomes
 This project was developed as part of an academic assignment and includes:
 
 Strong use of object-oriented programming
@@ -58,7 +58,7 @@ Integration of multiple data structures in a single system
 
 Simulation of real-world banking workflows
 
-👥 Author
+##👥 Author
 Risikesan Yogeswaran
 
 💼 AI Student
