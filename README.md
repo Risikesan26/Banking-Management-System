@@ -63,13 +63,14 @@ A simple yet powerful console-based banking system built in Python that simulate
     - Accounting Manager
 
 ## ✅ Learning Outcomes
-Implemented a full-featured simulation of a banking system
+- Implemented a full-featured simulation of a banking system
 
-Used Python OOP concepts effectively
+- Used Python OOP concepts effectively
 
-Practiced algorithm implementation (Merge Sort, Binary Search)
+- Practiced algorithm implementation (Merge Sort, Binary Search)
 
-Modeled real-world access control using a hierarchy tree
+- Modeled real-world access control using a hierarchy tree
+- 
 ## 👥 Author
 Risikesan Yogeswaran
 
@@ -79,7 +80,7 @@ Risikesan Yogeswaran
 
 📫 LinkedIn:www.linkedin.com/in/risikesan-yogeswaran-a25ba9281
 
-📃 License
+## 📃 License
 This project is licensed under the MIT License.
 
 Let me know if you'd like a version with badges, screenshots, or a GUI version preview added!
