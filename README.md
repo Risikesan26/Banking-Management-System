@@ -30,13 +30,6 @@ A simple yet powerful console-based banking system built in Python that simulate
 
 ---
 
-## 📁 File Structure
-banking_system/
-├── bank_system.py # Main Python script
-├── bank_data.json # Auto-generated file for saved accounts
-└── README.md # This file
----
-
 ## 🧪 How to Run
 
 1. Clone this repository:
