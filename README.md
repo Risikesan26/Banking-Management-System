@@ -5,28 +5,26 @@ A simple yet powerful console-based banking system built in Python that simulate
 
 ## ✨ Features
 
-- 🔐 **Create Account** with unique 10-digit number and initial deposit
-- 💰 **Deposit / Withdraw / Transfer** money between accounts
-- 📄 **Transaction History** with last 20 records using a queue
-- 📊 **Balance Inquiry** for a single account
-- 🔎 **Binary Search** for account number
-- 🧑‍💼 **Update Account Owner Name**
-- ❌ **Delete Account** with confirmation
-- 📈 **Generate Report** sorted by account balance
-- 🌳 **Access Control View** using a tree to model users (Manager → Teller → Customer)
-- 💾 **Data Persistence** using JSON for saving/loading account data
+- 📥 Create, Update, and Delete bank accounts
+- 💵 Deposit, Withdraw, and Transfer money between accounts
+- 📄 View Transaction History (last 20 using `deque`)
+- 🔍 Binary Search for account lookup
+- 📊 Generate report of accounts sorted by balance using Merge Sort
+- 🌳 Model Organizational Hierarchy using Tree (CEO → Managers → Employees)
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **Python 3**
-- Data Structures:
-  - `Dictionary` for account storage
-  - `Deque` for transaction history
-  - `List` & custom `Binary Search`
-  - `Tree (UserNode class)` for access control
-- `JSON` for data persistence
+- **Classes & Objects**
+- **Data Structures:**
+  - `List` for storing accounts
+  - `deque` for transaction history
+  - `Tree` for hierarchy modeling
+- **Algorithms:**
+  - Binary Search
+  - Merge Sort
 
 ---
 
@@ -34,30 +32,44 @@ A simple yet powerful console-based banking system built in Python that simulate
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/banking-system.git
-   cd banking-system
+   git clone https://github.com/Risikesan26/Banking-Management-System.git
+   cd Banking-Management-System
 2.Run the Python script:
    python bank_system.py
 
 ## 📸 Sample Output
-==== Welcome to Python Bank ====
-1. Create account
-2. Deposit
-3. Withdraw
-4. Transfer
-5. View balance
-...
-12. Exit
+Account created.
+Deposit successful.
+Withdrawal successful.
+Transfer successful.
+Account updated.
+Account deleted if existed.
+
+--- Account Report (Sorted by Balance) ---
+102: Bob Jr. - Balance: $700
+101: Alice - Balance: $1200
+103: Charlie - Balance: $900
+
+--- Transactions ---
+Deposited $200 to 101
+Withdrew $100 from 102
+Transferred $300 from 103 to 102
+
+--- Organizational Hierarchy ---
+CEO
+  CTO
+    Dev Manager
+  CFO
+    Accounting Manager
 
 ## ✅ Learning Outcomes
-This project was developed as part of an academic assignment and includes:
+Implemented a full-featured simulation of a banking system
 
-Strong use of object-oriented programming
+Used Python OOP concepts effectively
 
-Integration of multiple data structures in a single system
+Practiced algorithm implementation (Merge Sort, Binary Search)
 
-Simulation of real-world banking workflows
-
+Modeled real-world access control using a hierarchy tree
 ## 👥 Author
 Risikesan Yogeswaran
 
@@ -66,3 +78,8 @@ Risikesan Yogeswaran
 🇲🇾 Malaysia
 
 📫 LinkedIn:www.linkedin.com/in/risikesan-yogeswaran-a25ba9281
+
+📃 License
+This project is licensed under the MIT License.
+
+Let me know if you'd like a version with badges, screenshots, or a GUI version preview added!
